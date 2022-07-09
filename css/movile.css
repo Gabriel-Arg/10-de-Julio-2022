@@ -34,7 +34,6 @@ body {
 }
 
 .header_fluid {
-  border: 1px dashed cyan;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -44,11 +43,23 @@ body {
   align-items: center;
 }
 .header_fluid .header_fluid_container {
-  border: 1px dashed yellow;
   margin: 0;
   padding: 0;
   height: 100%;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header_fluid .header_fluid_container .tiket {
+  border: 1px dashed black;
+  border-radius: 10px;
+  background-color: orangered;
+  -webkit-box-shadow: 5px 5px 33px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 33px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 33px -10px rgba(0, 0, 0, 0.75);
+  height: 60rem;
+  width: 300px;
 }
 
 /*# sourceMappingURL=movile.css.map */

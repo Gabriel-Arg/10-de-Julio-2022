@@ -4,6 +4,9 @@
         background-color: red;
     }
 
-    
+    .header_fluid .header_fluid_container .tiket {
+        height: 300px;
+        width: 60rem;
+    }
 
 }
