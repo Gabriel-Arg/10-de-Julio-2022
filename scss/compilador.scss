@@ -1,5 +1,80 @@
 @import "variables";
 
+// ----------------------------------------------------
+// -----   SENTINGS   ---------------------------------
+// ----------------------------------------------------
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: $color-blanco;
+}
+
+p {
+    font-family: $fuente-parrafos;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: $fuente-titulos;
+    font-size: 4rem;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: $fuente-subtitulo;
+    font-size: 2.5rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+// ----------------------------------------------------
+// -----CUERPO DEL PROYECTO----------------------------
+// ----------------------------------------------------
 body {
     background-color: $color-azul-fondo;
+}
+
+.header_fluid {
+    border: 1px dashed cyan;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .header_fluid_container {
+        border: 1px dashed yellow;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+
+        position: relative;
+
+        #btn_ir_abajo {
+            border: none;
+            border-radius: 10px;
+            background-color: $color-azul-tarjeta;
+            -webkit-box-shadow: 10px 9px 20px -12px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 9px 20px -12px rgba(0,0,0,0.75);
+            box-shadow: 10px 9px 20px -12px rgba(0,0,0,0.75);
+
+            width: 200px;
+            height: 50px;
+
+            position: absolute;
+            bottom: 40px;
+            left: 23%;
+
+            h3 {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
 }
