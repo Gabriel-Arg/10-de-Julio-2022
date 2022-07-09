@@ -35,6 +35,11 @@ html {
 // ----------------------------------------------------
 body {
     background-color: $color-azul-fondo;
+    background-image: url(../img/papel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .header_fluid {
@@ -56,25 +61,6 @@ body {
 
         position: relative;
 
-        #btn_ir_abajo {
-            border: none;
-            border-radius: 10px;
-            background-color: $color-azul-tarjeta;
-            -webkit-box-shadow: 10px 9px 20px -12px rgba(0,0,0,0.75);
-            -moz-box-shadow: 10px 9px 20px -12px rgba(0,0,0,0.75);
-            box-shadow: 10px 9px 20px -12px rgba(0,0,0,0.75);
 
-            width: 200px;
-            height: 50px;
-
-            position: absolute;
-            bottom: 40px;
-            left: 23%;
-
-            h3 {
-                margin: 0;
-                padding: 0;
-            }
-        }
     }
 }
