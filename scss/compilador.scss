@@ -35,7 +35,7 @@ html {
 // ----------------------------------------------------
 body {
     background-color: $color-azul-fondo;
-    background-image: url(../img/papel-1.jpg);
+    background-image: url(../img/mapa-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -65,15 +65,18 @@ body {
         align-items: center;
 
         .tiket {
-            border: 1px dashed black;
+            border: 2px solid rgba(0, 0, 0, 0.367);
             border-radius: 10px;
+            
+            background-image: url(../img/fondo-naranja-vertical.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            ackground-attachment: fixed;
 
-            background-color: orangered;
-
-            -webkit-box-shadow: 5px 5px 33px -10px rgba(0,0,0,0.75);
-            -moz-box-shadow: 5px 5px 33px -10px rgba(0,0,0,0.75);
-            box-shadow: 5px 5px 33px -10px rgba(0,0,0,0.75);
-
+            -webkit-box-shadow: 0px 0px 35px 1px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 0px 35px 1px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 35px 1px rgba(0,0,0,0.75);
 
             height: 60rem;
             width: 300px;

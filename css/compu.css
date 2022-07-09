@@ -5,8 +5,9 @@
     }
 
     .header_fluid .header_fluid_container .tiket {
-        height: 300px;
-        width: 60rem;
+        height: 450px;
+        width: 100rem;
+        background-image: url(../img/fondo-naranja-horizontal.png);
     }
 
 }
