@@ -77,7 +77,6 @@ body {
   margin-top: 15px;
 }
 .header_fluid .header_fluid_container .tiket .tiket_2 {
-  border: 1px dashed black;
   width: 90%;
   height: 43%;
   margin: 10px 0 5px 0;
@@ -87,7 +86,6 @@ body {
   align-items: center;
 }
 .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2a {
-  border: 1px dashed black;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -101,7 +99,6 @@ body {
   font-weight: bold;
 }
 .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2b {
-  border: 1px dashed black;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -112,6 +109,21 @@ body {
   margin: 0;
   font-size: 3.5rem;
   font-family: "Kanit", sans-serif;
+}
+.header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2c {
+  width: 100%;
+  margin: 10px 0px;
+  line-height: 1.7rem;
+}
+.header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2c p {
+  font-weight: bold;
+  margin: 0;
+}
+.header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2d {
+  border-top: 2px dashed black;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
 }
 
 /*# sourceMappingURL=movile.css.map */

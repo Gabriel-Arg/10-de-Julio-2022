@@ -1,8 +1,4 @@
 @media screen and (min-width: 567px) {
-    
-    p {
-        background-color: red;
-    }
 
     .header_fluid .header_fluid_container .tiket {
         height: 450px;
@@ -23,13 +19,18 @@
     }
     /*       NUMEROS GRANDES PARA LA FECHA                      */
     .header_fluid .header_fluid_container .tiket .tiket_2 {
-        border: 1px dashed black;
         width: 45%;
         height: 90%;
         margin: 0 10px;
-
     }
 
+    .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2a h2 {
+        font-size: 7rem;
+    }
+
+    .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2b h2 {
+        font-size: 6rem;
+    }
 
 
 
