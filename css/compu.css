@@ -33,13 +33,22 @@
     }
 
     .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2c {
-        height: 100%;
+        height: 70%;
     }
 
     .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2d .tiket_2d_mensaje {
         width: 100px;
         height: 90%;
     }
+
+    .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2d .tiket_2d_codigo {
+        /* border: 1px dashed white; */
+        width: 200px;
+        height: 100%;
+        margin-top: 10px;
+
+    }
+
 
 
 
