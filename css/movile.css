@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  color: #ccd6f6;
+  color: #000000d6;
 }
 
 p {
@@ -64,6 +64,27 @@ body {
   box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.75);
   height: 60rem;
   width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.header_fluid .header_fluid_container .tiket .tiket_1 {
+  border: 2px solid rgba(0, 0, 0, 0.627);
+  border-radius: 8px;
+  width: 90%;
+  height: 50%;
+  margin-top: 15px;
+}
+.header_fluid .header_fluid_container .tiket .tiket_2 {
+  border: 1px dashed black;
+  width: 90%;
+  height: 43%;
+  margin: 10px 0 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=movile.css.map */
