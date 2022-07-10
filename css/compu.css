@@ -32,6 +32,15 @@
         font-size: 6rem;
     }
 
+    .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2c {
+        height: 100%;
+    }
+
+    .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2d .tiket_2d_mensaje {
+        width: 100px;
+        height: 90%;
+    }
+
 
 
 }
