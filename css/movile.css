@@ -82,9 +82,36 @@ body {
   height: 43%;
   margin: 10px 0 5px 0;
   display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2a {
+  border: 1px dashed black;
+  width: 100%;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2a h2 {
+  margin: 0;
+  font-size: 4rem;
+  font-family: "Anek Malayalam", sans-serif;
+  font-weight: bold;
+}
+.header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2b {
+  border: 1px dashed black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2b h2 {
+  margin: 0;
+  font-size: 3.5rem;
+  font-family: "Kanit", sans-serif;
 }
 
 /*# sourceMappingURL=movile.css.map */
