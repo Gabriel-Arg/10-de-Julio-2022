@@ -41,8 +41,16 @@
         line-height: 4rem;
     }
 
+    .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2b #feliz_cumple {
+        line-height: 4.5rem;
+    }
+
     .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2b #abu_text {
         font-size: 4rem;
+    }
+
+    .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2b #tu_papa {
+        font-size: 6rem;
     }
 
     .header_fluid .header_fluid_container .tiket .tiket_2 .tiket_2c {
